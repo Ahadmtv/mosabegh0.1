@@ -1,0 +1,49 @@
+@keyframes corect-animation {
+
+    0%, 10% { background-color: transparent; }
+    11%, 12.5% { background-color: rgb(203, 155, 0); }
+    25%, 35% { background-color: transparent; }
+    36%, 37.5% { background-color: rgb(203, 155, 0); }
+    50%, 60% { background-color: transparent; }
+    61%, 62.5% { background-color: rgb(203, 155, 0); }
+    75%, 85% { background-color: transparent; }
+    86%, 87.5% { background-color: rgb(203, 155, 0); }
+    100% { background-color: rgb(13, 255, 0); }
+}
+
+@keyframes wrong-animation {
+
+    0%, 10% { background-color: transparent; }
+    11%, 12.5% { background-color: rgb(203, 155, 0); }
+    25%, 35% { background-color: transparent; }
+    36%, 37.5% { background-color: rgb(203, 155, 0); }
+    50%, 60% { background-color: transparent; }
+    61%, 62.5% { background-color: rgb(203, 155, 0); }
+    75%, 85% { background-color: transparent; }
+    86%, 87.5% { background-color: rgb(203, 155, 0); }
+    100% { background-color: rgb(224, 0, 0); }
+}
+@keyframes dorost-animation {
+    0%,99%{
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgb(13, 255, 0);
+    }
+}
+.answer-sec .choice.dorost{
+    animation-name: dorost-animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+.answer-sec .choice.corect {
+    animation-name: corect-animation;
+    animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+
+.answer-sec .choice.wrong {
+    animation-name: wrong-animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}

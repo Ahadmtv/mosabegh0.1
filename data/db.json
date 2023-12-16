@@ -1,0 +1,344 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "پایتخت ایران کجاست؟",
+            "answers": [
+                {
+                    "value": "تهران",
+                    "correct": true
+                },
+                {
+                    "value": "رشت",
+                    "correct": false
+                },
+                {
+                    "value": "شیراز",
+                    "correct": false
+                },
+                {
+                    "value": "اصفهان",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "بلندترین برج دنیا کجا واقع شده است؟",
+            "answers": [
+                {
+                    "value": "برج خلیفه، دبی",
+                    "correct": true
+                },
+                {
+                    "value": "برج شانگهای، چین",
+                    "correct": false
+                },
+                {
+                    "value": "برج ایفل، پاریس",
+                    "correct": false
+                },
+                {
+                    "value": "برج ویلیس، شیکاگو",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "مرکز هندسی ایران چه شهری است؟",
+            "answers": [
+                {
+                    "value": "تهران",
+                    "correct": false
+                },
+                {
+                    "value": "قم",
+                    "correct": true
+                },
+                {
+                    "value": "مشهد",
+                    "correct": false
+                },
+                {
+                    "value": "کرج",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "سریع‌ترین حیوان خشکی‌زی کدام است؟",
+            "answers": [
+                {
+                    "value": "پلنگ",
+                    "correct": false
+                },
+                {
+                    "value": "گورخر",
+                    "correct": false
+                },
+                {
+                    "value": "یوزپلنگ",
+                    "correct": true
+                },
+                {
+                    "value": "ببر",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "کدام گاز اکثریت جو زمین را تشکیل داده است؟",
+            "answers": [
+                {
+                    "value": "اکسیژن",
+                    "correct": false
+                },
+                {
+                    "value": "کربن دی‌اکسید",
+                    "correct": false
+                },
+                {
+                    "value": "نیتروژن",
+                    "correct": true
+                },
+                {
+                    "value": "آرگون",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "آهنگران آرامگاه کوروش در کدام استان ایران قرار دارد؟",
+            "answers": [
+                {
+                    "value": "فارس",
+                    "correct": true
+                },
+                {
+                    "value": "کرمانشاه",
+                    "correct": false
+                },
+                {
+                    "value": "اصفهان",
+                    "correct": false
+                },
+                {
+                    "value": "یزد",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "یک سال چند روز دارد؟",
+            "answers": [
+                {
+                    "value": "365 روز",
+                    "correct": true
+                },
+                {
+                    "value": "354 روز",
+                    "correct": false
+                },
+                {
+                    "value": "366 روز",
+                    "correct": false
+                },
+                {
+                    "value": "360 روز",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "کدام زبان برای توسعه اندروید مورد استفاده قرار می‌گیرد؟",
+            "answers": [
+                {
+                    "value": "Python",
+                    "correct": false
+                },
+                {
+                    "value": "Java",
+                    "correct": true
+                },
+                {
+                    "value": "C++",
+                    "correct": false
+                },
+                {
+                    "value": "Swift",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "قدیمی‌ترین پایتخت جهان کدام شهر است؟",
+            "answers": [
+                {
+                    "value": "روم",
+                    "correct": false
+                },
+                {
+                    "value": "آتن",
+                    "correct": false
+                },
+                {
+                    "value": "دمشق",
+                    "correct": true
+                },
+                {
+                    "value": "قاهره",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "رئیس جمهور کنونی ایالات متحده آمریکا کیست؟",
+            "answers": [
+                {
+                    "value": "دونالد ترامپ",
+                    "correct": false
+                },
+                {
+                    "value": "جو بایدن",
+                    "correct": true
+                },
+                {
+                    "value": "باراک اوباما",
+                    "correct": false
+                },
+                {
+                    "value": "جورج بوش",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "عنصر شیمیایی با نماد 'O' چیست؟",
+            "answers": [
+                {
+                    "value": "اکسیژن",
+                    "correct": true
+                },
+                {
+                    "value": "طلا",
+                    "correct": false
+                },
+                {
+                    "value": "استرانسیوم",
+                    "correct": false
+                },
+                {
+                    "value": "اوزمیوم",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "بزرگترین کویر ایران کدام است؟",
+            "answers": [
+                {
+                    "value": "کویر لوت",
+                    "correct": true
+                },
+                {
+                    "value": "کویر مرکزی",
+                    "correct": false
+                },
+                {
+                    "value": "دشت کویر",
+                    "correct": false
+                },
+                {
+                    "value": "دشت لوت",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "زبان رسمی کشور ژاپن چیست؟",
+            "answers": [
+                {
+                    "value": "چینی",
+                    "correct": false
+                },
+                {
+                    "value": "کره‌ای",
+                    "correct": false
+                },
+                {
+                    "value": "ژاپنی",
+                    "correct": true
+                },
+                {
+                    "value": "تایلندی",
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "money": [
+        {
+            "stage": 1,
+            "price": 100
+        },
+        {
+            "stage": 2,
+            "price": 200
+        },
+        {
+            "stage": 3,
+            "price": 300
+        },
+        {
+            "stage": 4,
+            "price": 500
+        },
+        {
+            "stage": 5,
+            "price": 750
+        },
+        {
+            "stage": 6,
+            "price": 1000
+        },
+        {
+            "stage": 7,
+            "price": 1500
+        },
+        {
+            "stage": 8,
+            "price": 2500
+        },
+        {
+            "stage": 9,
+            "price": 5000
+        },
+        {
+            "stage": 10,
+            "price": 7500
+        },
+        {
+            "stage": 11,
+            "price": 10000
+        },
+        {
+            "stage": 12,
+            "price": 15000
+        },
+        {
+            "stage": 13,
+            "price": 25000
+        }
+    ]
+}

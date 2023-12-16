@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'vazir-bold';
+  src: url('./assets/font/Vazir.ttf') format('truetype'),
+    url('./assets/font/Vazir-Bold.woff') format('woff'),
+    url('./assets/font/Vazir-Bold.woff2') format('woff2'),
+    url('./assets/font/Vazir-Bold.eot') format('eot');
+  ;
+}
+
+@font-face {
+  font-family: 'vazir-light';
+  src: url('./assets/font/Vazir-Light.ttf') format('truetype'),
+    url('./assets/font/Vazir-Light.woff') format('woff'),
+    url('./assets/font/Vazir-Light.woff2') format('woff2'),
+    url('./assets/font/Vazir-Light.eot') format('eot');
+  ;
+}
+
+@font-face {
+  font-family: 'vazir-medium';
+  src: url('./assets/font/Vazir-Medium.ttf') format('truetype'),
+    url('./assets/font/Vazir-Medium.woff') format('woff'),
+    url('./assets/font/Vazir-Medium.woff2') format('woff2'),
+    url('./assets/font/Vazir-Medium.eot') format('eot');
+  ;
+}
+
+@font-face {
+  font-family: 'vazir-thin';
+  src: url('./assets/font/Vazir-Thin.ttf') format('truetype'),
+    url('./assets/font/Vazir-Thin.woff') format('woff'),
+    url('./assets/font/Vazir-Thin.woff2') format('woff2'),
+    url('./assets/font/Vazir-Thin.eot') format('eot');
+  ;
+}
+
+@font-face {
+  font-family: 'vazir';
+  src: url('./assets/font/Vazir.ttf') format('truetype'),
+    url('./assets/font/Vazir.woff') format('woff'),
+    url('./assets/font/Vazir.woff2') format('woff2'),
+    url('./assets/font/Vazir.eot') format('eot');
+  ;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  direction: rtl;
+  color: white;
+  font-family: vazir;
+}
+
+/* استایل اصلی */
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: vazir, sans-serif;
+}
+
+.main-sec {
+  background: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.timer {
+  background: #000000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timer span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.question-sec h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.answer-sec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.choice {
+  color: black;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.choice:hover {
+  background-color: #e6e6e6;
+  border-color: #d4d4d4;
+}
+
+.choice span:first-child {
+  margin-right: 0.5em;
+}
+
+/* استایل برای قسمت جوایز */
+.money-sec {
+  margin-top: 20px;
+}
+
+.money-sec .wrapper {
+  background: #4caf50;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.money-sec ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.money-sec li {
+  padding: 5px 0;
+  border-bottom: 1px solid #409d48;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.money-sec li.active {
+  background-color: #388e3c;
+  font-weight: bold;
+}
+
+.money-sec li:last-child {
+  border-bottom: none;
+}
+

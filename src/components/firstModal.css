@@ -1,0 +1,67 @@
+/* استایل برای پس‌زمینه تاریک مودال */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* استایل مودال */
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .modal h3 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .modal ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .modal ul li {
+    background: #f2f2f2;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: black;
+    text-align: right;
+  }
+  
+  .modal button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    outline: none;
+  }
+  
+  .modal button:hover {
+    background-color: #45a045;
+  }
+  
